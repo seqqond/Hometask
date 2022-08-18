@@ -11,3 +11,14 @@
 nav {
     box-shadow: 0px 0px 0px white;
 }
+.main {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 70px;
+    display: flex;
+}
+@media (max-width: 600px) {
+    .main {
+        height: 400px;
+    }
+}
